@@ -59,4 +59,4 @@ This is a website build for a Educational academy named VBS Shri Sai Tutorials, 
   </a>
 </div>
  
- ## ✍🏽 Author: NSVEGUR
+ ## ✍🏽 Author: KODAM KARTHIK
