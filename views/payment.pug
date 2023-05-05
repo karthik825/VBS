@@ -1,0 +1,27 @@
+html
+	head
+		meta(charset='UTF-8')
+		meta(name='description' content='VBS Shri Sai Academy, Spoken and Grammer Tutorial Academy')
+		meta(name='keywords' content='VBS, VBS Academy, VBS Shri Sai Academy')
+		meta(name='author' content='Srinivas Vegur')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		link(rel='shortcut icon' type='image/png' href='images/logo.png')
+		link(rel='stylesheet' href='styles/payment.css')
+		script(src='https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js')
+		script(src='https://checkout.razorpay.com/v1/checkout.js')
+		title #{title} | #{subtitle}
+	body
+		.overlay
+		section
+			.form-container
+				.logo
+					img(src='images/logo.png')
+				.form
+					.section-heading
+						h6 #{topheading}
+						h1 #{heading}.
+						span #{heading}
+					h3 #{description}
+				a#paybutton Pay #{amount}
+		script(src='scripts/paymentHandler.js')
+	

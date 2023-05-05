@@ -1,0 +1,30 @@
+section#contact(data-section='5')
+	.footer
+		.info
+			h1 Contact me:
+			h4 Email:
+				a(href='mailto:saisrinivas0077@gmail.com') saisrinivas0077@gmail.com
+			h4 Phone:
+				a(href='tel:919972784874') +919972784874
+		form
+			h1 Enquire:
+
+			label(for='name') Name:
+			input#name(type='text' placeholder='Your name')
+			small.error
+
+			label(for='email') Email:
+			input#email(type='text' placeholder='Your email')
+			small.error
+
+			label(for='mobile') Mobile:
+			input#mobile(type='tel' placeholder='Your mobile number')
+			small.error
+
+			label(for='message') Message:
+			textarea#message(placeholder='Your message' rows='2')
+			small.error
+
+			.center
+				input(type='submit' value='Send')
+				p#success

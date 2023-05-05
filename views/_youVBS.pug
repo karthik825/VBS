@@ -1,0 +1,17 @@
+extends _innertemplate
+
+block content
+	section
+		main
+			iframe(src=data.mainLink title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
+		aside
+			each detail in data.subDetails
+				.card
+					a.card-overlay(href=detail._id)
+					iframe(src=detail.link title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture' allowfullscreen)
+					.card-details
+						h1= detail.heading
+						p VBS Shri Sai Academy
+							span
+								i.fa.fa-check-circle
+						p #{detail.views} views &#8226 #{detail.numberOfDays} days ago

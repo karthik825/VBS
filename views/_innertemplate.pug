@@ -1,0 +1,28 @@
+doctype html
+html
+	head
+		meta(charset='UTF-8')
+		meta(name='description' content='VBS Shri Sai Academy, Spoken and Grammer Tutorial Academy')
+		meta(name='keywords' content='VBS, VBS Academy, VBS Shri Sai Academy')
+		meta(name='author' content='Srinivas Vegur')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		link(rel='shortcut icon' type='image/png' href='../images/logo.png')
+		link(rel='stylesheet' href='../styles/template.css')
+		script(src='https://kit.fontawesome.com/549aab17e5.js' crossorigin='anonymous')
+		title #{title} | #{subtitle}
+
+	body
+		header
+			div
+				img(src='../images/logo.png' alt='VBS Shri Sai Academy Logo')
+				.section-heading
+					h6 #{subtitle}
+					h1 #{title}.
+					span #{title}
+			div
+				a.contact(href='../#contact') CONTACT
+				a(href='https://www.youtube.com/user/saihiredinni') SUBSCRIBE
+		block content
+			h1 This is roottemplate
+		
+		include _footer.pug

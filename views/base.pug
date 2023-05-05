@@ -1,0 +1,31 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='UTF-8')
+		meta(name='description' content='VBS Shri Sai Academy, Spoken and Grammer Tutorial Academy')
+		meta(name='keywords' content='VBS, VBS Academy, VBS Shri Sai Academy')
+		meta(name='author' content='Srinivas Vegur')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		link(rel='shortcut icon' type='image/png' href='images/logo.png')
+		link(rel='stylesheet' href='styles/main.css')
+		script(async src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8249546290727776'
+     crossorigin='anonymous')
+		script(src='https://kit.fontawesome.com/549aab17e5.js' crossorigin='anonymous')
+		script(src='https://cdn.jsdelivr.net/npm/typed.js@2.0.12')
+		script(src='https://cdn.jsdelivr.net/npm/axios@0.24.0/dist/axios.min.js')
+		script(defer src='scripts/splash.js')
+		script(defer src='scripts/main.js')
+		script(defer src='scripts/formHandler.js')
+		title #{title}
+
+	body
+		include _splash
+		main.hidden
+			include _nav
+			include _home
+			include _about
+			include _services
+			include _institute
+			include _numerology
+			include _contact
+			include _footer

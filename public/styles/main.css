@@ -1,0 +1,34 @@
+@import '_root.css';
+@import '_splash.css';
+@import '_nav.css';
+@import '_home.css';
+@import '_about.css';
+@import '_services.css';
+@import '_institute.css';
+@import '_numerology.css';
+@import '_template.css';
+@import '_contact.css';
+@import '_heading.css';
+@import '_footer.css';
+
+.hidden{
+  display: none;
+}
+
+
+.error-page{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.error-page h1{
+  color: var(--primary-dark-color);
+}
+#error-anim{
+  width:300px;
+	height:300px;
+}
+

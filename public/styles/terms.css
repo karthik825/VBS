@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import '_heading.css';
+@import '_root.css';
+
+body{
+  font-family: var(--primary-font);
+  background: var(--primary-light-color);
+	padding: 15px;
+	width: 70%;
+	margin: auto auto;
+	text-align:justify;
+}
+h1, h2, h3{
+	margin: 15px 0;
+}
+p{
+	margin: 10px 0;
+}
+@media (max-width: 768px){
+	body{
+		width: 100%;
+	}
+}

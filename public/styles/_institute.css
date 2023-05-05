@@ -1,0 +1,79 @@
+.school-details-container{
+	height: 400px;
+	width: 100%;
+	background: url('../images/school.jpeg') no-repeat center center;
+	background-size:cover;
+	background-attachment: fixed;
+	color: white;
+	position: relative;
+}
+.school-overlay{
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+.school-details{
+	position: absolute;
+	inset: 0;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+	text-transform: uppercase;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:space-evenly;
+}
+.school-detail{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 10px;
+}
+.school-detail .fas{
+	padding: 15px;
+	color: var(--primary-dark-color);
+	border: 3px solid rgba(0, 0, 0, 0.5);
+	border-radius: 50%;
+	font-size: 25px;
+	background: rgba(255, 255, 255, 0.5);
+	cursor: pointer;
+}
+
+.school-detail .fas:hover{
+	transition: all 0.5s ease-in-out;
+	color: white;
+	background: var(--primary-dark-color);
+}
+
+.institute-flex{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content:center;
+	padding: 0 50px;
+  text-align: justify;
+}
+.institute-flex div:first-child{
+	width: 60%;
+}
+
+@media (max-width: 858px) {
+	.institute-flex{
+		flex-direction: column-reverse;
+		padding: 0 10px;
+    margin-bottom: 30px;
+	}
+	.institute-flex div:first-child{
+		width: 100%;
+	}
+}
+
+@media (max-width: 858px){
+	.school-details-container{
+		height: 1000px;
+	}
+	.school-details{
+		flex-direction: column;
+	}
+}

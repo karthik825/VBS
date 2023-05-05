@@ -1,0 +1,28 @@
+html
+	head
+		meta(charset='UTF-8')
+		meta(name='description' content='VBS Shri Sai Academy, Spoken and Grammer Tutorial Academy')
+		meta(name='keywords' content='VBS, VBS Academy, VBS Shri Sai Academy')
+		meta(name='author' content='Srinivas Vegur')
+		meta(name='viewport' content='width=device-width, initial-scale=1.0')
+		link(rel='shortcut icon' type='image/png' href='images/logo.png')
+		link(rel='stylesheet' href='styles/payment.css')
+		title #{title} | #{subtitle}
+	body
+		.overlay
+		section
+			.form-container
+				.logo
+					img(src='images/logo.png')
+				.status-container
+					h1.status #{heading}
+					h5 Email: #{email}
+					h5 Mobile: #{mobile}
+					h5 Status: #{status}
+					h5 Amount Paid: #{amount}
+					h5 Order ID: #{order_id}
+					h5 Paid to: #{paid_to}
+					h5 Merchant mobile: #{merchant_mobile}
+					h5 Merchant ID: #{merchant_id}
+				h6.status Please keep a screen shot of these details with you :)
+				a#home(href="/") Return to Home

@@ -1,0 +1,23 @@
+[
+	{
+		"paymentAPICall": "SpokenBootCamp",
+		"heading": "BootCamp",
+		"description": "Learn to converse in English fluently & confidently in just 48 days.",
+		"topheading": "VBS English",
+		"amount": 199
+	},
+	{
+		"paymentAPICall": "NumerologySection",
+		"heading": "Numerology",
+		"description": "Boost up your daily routines with peace if you're not okay with your life.",
+		"topheading": "Name Change",
+		"amount": 2000
+	},
+	{
+		"paymentAPICall": "HoroscopySection",
+		"heading": "Astrology",
+		"description": "Get awareness about your future to choose your way confidently.",
+		"topheading": "Horo-session",
+		"amount": 5000
+	}
+]
